@@ -1,5 +1,6 @@
 # ConceptHive
 **Live Deployment**: [https://react-end-term-project-81snuiaer-amitanshu11235-1335s-projects.vercel.app/](https://react-end-term-project-81snuiaer-amitanshu11235-1335s-projects.vercel.app/)
+
 **Video Link**:https://www.youtube.com/watch?v=yd5KeY4II6U
 
 ConceptHive is an AI-powered knowledge graph builder. Users paste text, study notes, or complex datasets, and the app extracts key concepts and relationships using AI (OpenAI/Gemini). The result is elegantly rendered as an interactive data tree and node graph that can be explored through a honeycomb dashboard.
