@@ -2,17 +2,17 @@
 
 ## Problem Statement
 
-Students often collect study material as long, unstructured notes. During revision, those notes become hard to scan because important concepts, dependencies, and relationships are hidden inside paragraphs. A student may know the individual definitions but still struggle to understand how topics connect.
+Knowledge workers, students, and AI developers often deal with massive amounts of unstructured data—from lengthy study notes to complex research datasets. Scanning this raw text is inefficient because core relationships are hidden inside paragraphs. Whether you are a student trying to revise, or a developer trying to feed clean structure into an AI model, unstructured data is a major bottleneck.
 
-ConceptHive solves this by turning raw study notes into an interactive knowledge graph. The app extracts concepts and relationships from notes, saves each graph to the user's account, and lets the student explore connected ideas visually. This helps learners revise by structure instead of rereading the same text repeatedly.
+ConceptHive solves this by transforming raw text into an interactive knowledge graph. For students, it provides a visual map to explore connected ideas. For professionals and AI researchers, it generates clean, structured data trees and relationship JSONs that can be used directly to train machine learning models and improve AI applications.
 
 ## 5-Minute Demo Flow
 
 ### 0:00-0:35 — Introduction
 
-Hi, my project is called ConceptHive. It is an AI-powered knowledge graph builder for students.
+Hi, my project is called ConceptHive. It is an AI-powered knowledge graph builder for students, researchers, and AI developers.
 
-The problem I am solving is that study notes are usually linear and messy. When students revise from long paragraphs, it is difficult to see which concepts are important and how they are connected. ConceptHive converts those notes into a visual graph, so revision becomes more interactive and relationship-based.
+The problem I am solving is that unstructured data—like study notes or deep research text—is linear and messy. ConceptHive converts raw text into a visual, structured graph. This helps students learn interactively, and it also provides AI developers with the pristine JSON data trees required to train machine learning models and RAG pipelines.
 
 ### 0:35-1:10 — Tech Stack
 
@@ -54,8 +54,8 @@ The project demonstrates core React concepts like functional components, props, 
 
 It also uses advanced concepts like `useMemo` for graph calculations, `useCallback` for stable event handlers, `useRef` for graph and textarea references, and lazy loading with `React.lazy` and `Suspense`.
 
-In short, ConceptHive helps students turn unstructured notes into connected visual knowledge maps, making revision more meaningful and easier to understand.
+In short, ConceptHive replaces the friction of unstructured text with connected visual knowledge maps—serving both as an incredible revision tool for learners and a powerful data-structuring tool for AI developers.
 
 ## Short Viva Answer
 
-ConceptHive is a React application that helps students convert study notes into interactive knowledge graphs. It uses Supabase for authentication and persistent graph storage, a Vercel serverless API route for AI-based graph generation, and react-force-graph-2d for visualization. The main goal is to help students understand relationships between concepts instead of revising only through linear notes.
+ConceptHive is a React application that converts unstructured text into interactive knowledge graphs and structured dataset trees. It uses Supabase for authentication and persistence, a Vercel serverless API route for AI-based graph generation, and react-force-graph-2d for visualization. The main goal is to map complex relationships hidden in text, providing students with highly interactive study tools, and giving researchers and developers the structured JSON formats required for building advanced AI applications.
