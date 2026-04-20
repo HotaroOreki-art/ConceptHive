@@ -1,18 +1,19 @@
 # ConceptHive
+**Live Deployment**: [https://react-end-term-project-81snuiaer-amitanshu11235-1335s-projects.vercel.app/](https://react-end-term-project-81snuiaer-amitanshu11235-1335s-projects.vercel.app/)
 
-ConceptHive is an AI-powered knowledge graph builder for students. Users paste study notes, the app extracts key concepts with OpenAI, and the result is saved as an interactive graph that can be explored through a honeycomb dashboard.
+ConceptHive is an AI-powered knowledge graph builder. Users paste text, study notes, or complex datasets, and the app extracts key concepts and relationships using AI (OpenAI/Gemini). The result is elegantly rendered as an interactive data tree and node graph that can be explored through a honeycomb dashboard.
 
 ## Problem Statement
 
-Students often collect study material as long, unstructured notes. During revision, those notes become hard to scan because important concepts, dependencies, and relationships are hidden inside paragraphs. A student may know individual definitions but still struggle to understand how topics connect.
+Knowledge workers, students, and researchers often collect massive amounts of unstructured data—ranging from lecture notes to complex research datasets. Scanning raw text or feeding unstructured blocks of information into analytical pipelines is inefficient because core concepts, dependencies, and relationships are hidden inside paragraphs.
 
-ConceptHive solves this by turning raw study notes into an interactive knowledge graph. The app extracts concepts and relationships from notes, saves each graph to the user's account, and lets the student explore connected ideas visually. This helps learners revise by structure instead of rereading the same text repeatedly.
+ConceptHive solves this by transforming unstructured text into clean, structured, and interactive knowledge graphs. Not only does this help students structure their revision visually, but **the generated data trees and structural JSONs are pristine formatting for AI researchers.** This structural extraction provides the exact parsed dataset relationships needed to build and train AI models more precisely, feed context into RAG architectures, and map out huge texts cleanly.
 
-## Target Users
+## Target Users & Use Cases
 
-- Students preparing for exams
-- Learners organizing notes from lectures or courses
-- Anyone who wants a quick visual map of a topic
+- **Students & Learners:** Organizing notes from lectures into visual, scannable relationship maps for easier revision.
+- **AI Researchers & Developers:** Processing large text feeds into structured data trees and graph JSONs to train ML models and improve context injection.
+- **Data Analysts:** Anyone who wants a fast visual abstraction of complex documents without reading raw text.
 
 ## Features
 
